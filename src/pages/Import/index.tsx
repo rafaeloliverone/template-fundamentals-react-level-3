@@ -28,7 +28,6 @@ const Import: React.FC = () => {
     if (!uploadedFiles.length) return;
 
     const file = uploadedFiles[0];
-    // TODO
 
     data.append('file', file.file, file.name);
 
